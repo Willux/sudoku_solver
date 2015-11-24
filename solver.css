@@ -1,0 +1,38 @@
+#table {
+  border: 1px black solid;
+  border-collapse: collapse;
+}
+
+#table td {
+  border: 1px black solid;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#table input {
+  height: 33px;
+  width: 33px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+
+/*
+ * Thank you http://codepen.io/gc-nomade/pen/eBcCI
+ * for the snippets
+ */
+#table td:first-child {
+  border-left:solid;
+}
+
+#table td:nth-child(3n) {
+  border-right:solid ;
+}
+
+#table tr:first-child {
+  border-top:solid;
+}
+
+#table tr:nth-child(3n) td {
+  border-bottom:solid ;
+}
